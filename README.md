@@ -44,51 +44,7 @@ The main purpose of this project is to provide a **simple and easy-to-understand
 
 ---
 
-## 📂 Project Structure
 
-SpringDemoSecurity
-├── src
-│   │
-│   ├── main
-│   │   │
-│   │   ├── java
-│   │   │   │
-│   │   │   └── com.example.SpringDemoSecurity
-│   │   │       │
-│   │   │       ├── config
-│   │   │       │   └── SecurityConfig
-│   │   │       │
-│   │   │       ├── controller
-│   │   │       │   ├── AuthController
-│   │   │       │   ├── RoleController
-│   │   │       │   └── UserController
-│   │   │       │
-│   │   │       ├── dto
-│   │   │       │   ├── loginRequestDto
-│   │   │       │   ├── loginResponsesDto
-│   │   │       │   ├── UserRequestDto
-│   │   │       │   └── UserResponsesDto
-│   │   │       │
-│   │   │       ├── entity
-│   │   │       │   ├── CustomerUserDetail
-│   │   │       │   ├── Roles
-│   │   │       │   └── UserEntity
-│   │   │       │
-│   │   │       ├── repository
-│   │   │       │   ├── RoleRepository
-│   │   │       │   └── UserRepository
-│   │   │       │
-│   │   │       ├── servies
-│   │   │       │   ├── AuthService
-│   │   │       │   ├── CustomerUserDetailService
-│   │   │       │   ├── JwtService
-│   │   │       │   └── RoleService
-│   │   │       │
-│   │   │       └── SpringDemoSecurityApplication
-
-> The exact package and class names can be different depending on your implementation.
-
----
 
 # 🔐 Authentication Flow
 
